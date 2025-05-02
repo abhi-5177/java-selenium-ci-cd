@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/java-selenium-ci-cd.git'
+                git 'https://github.com/abhi-5177/java-selenium-ci-cd.git'
             }
         }
 
